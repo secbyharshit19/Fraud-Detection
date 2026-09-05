@@ -1,0 +1,47 @@
+# Data files (too large for GitHub - download separately)
+data/creditcard.csv
+data/train_processed_transactions.csv
+data/val_processed_transactions.csv
+data/test_processed_transactions.csv
+data/processed/*.csv
+data/synthetic/*.csv
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+dist/
+build/
+*.egg
+
+# Virtual environment
+venv/
+.venv/
+env/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Environment variables
+.env
+.env.local
+
+# Model artifacts (large binary files)
+models/trained/*.pkl
+models/baseline/*.pkl
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+logs/
+
+# Temporary
+*.tmp
+scratch/

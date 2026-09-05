@@ -1,0 +1,29 @@
+# Core
+pandas
+numpy
+scikit-learn
+xgboost
+lightgbm==4.6.0
+joblib
+
+# API
+fastapi
+uvicorn[standard]
+pydantic==1.10.7
+
+# Infrastructure
+redis
+psycopg2-binary
+kafka-python
+
+# ML
+imbalanced-learn==0.10.1
+optuna
+
+# Utilities
+requests
+boto3
+
+# Testing
+pytest
+httpx
